@@ -1,0 +1,6 @@
+interface:
+  display_name: "成本优先中枢派工"
+  short_description: "中枢负责调研沟通与规划，开发交给最低合格成本模型并按证据升级"
+  default_prompt: "使用 $cost-aware-dispatch 作为项目中枢，负责联网调研、需求沟通、规划和验收，将实际开发派给能胜任的最低成本模型，失败后按证据升级。"
+policy:
+  allow_implicit_invocation: true

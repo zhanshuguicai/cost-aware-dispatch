@@ -1,0 +1,16 @@
+# Local editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Private configuration, logs and backups
+.env
+.env.*
+*.log
+*.bak
+*~
+backups/
+logs/
+__pycache__/
+*.pyc
